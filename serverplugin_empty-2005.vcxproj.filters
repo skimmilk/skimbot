@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4116c342-a1e7-4a89-89ac-ca1abdae6faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags">
+      <UniqueIdentifier>{7aa3981b-7ffc-4b60-ace3-1cb62ad311cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked">
+      <UniqueIdentifier>{7da9e54c-01a7-4e10-8f85-052153bc71ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\static">
+      <UniqueIdentifier>{d3bd7240-566a-4629-9df3-d8e4624ef5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data">
+      <UniqueIdentifier>{d107382d-50c1-4ef2-979e-32f5d916c42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Link Libraries">
+      <UniqueIdentifier>{f5c6f3b3-264d-4851-a2d7-ffbadf57481e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\load">
+      <UniqueIdentifier>{2bbde27d-94d0-4142-be46-c3c91d412800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\load\_entry">
+      <UniqueIdentifier>{b0e62ace-0314-447e-97cb-f2c941b14db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\load\_loader">
+      <UniqueIdentifier>{3420a927-1eba-494e-9941-feea019d030d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\_Interfaces">
+      <UniqueIdentifier>{523837d1-fde7-4fd9-8853-e3c1e30ca164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\_TF2Entity">
+      <UniqueIdentifier>{39870ff3-ad56-49d8-a3df-a588dcf33530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\_TF2Weapon">
+      <UniqueIdentifier>{3b10af75-1306-46bd-81f8-42d9eb340de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\tools">
+      <UniqueIdentifier>{d68b83c4-edbb-4d1a-8273-0295ab09f289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\_AlternativeWait">
+      <UniqueIdentifier>{865fdc48-37fe-47b8-8c63-2112da30ed74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\_BaseHook">
+      <UniqueIdentifier>{946ff0a1-2a89-45f0-a704-456e9e5b9c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\_Disabler">
+      <UniqueIdentifier>{1697082b-c878-4ea0-b2bf-e64f2a84670b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\_FastCharger">
+      <UniqueIdentifier>{f2b255e9-bb10-4d57-b90f-2c51b4d4b8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\_NameSteal">
+      <UniqueIdentifier>{9869d21f-d20b-4e91-8a5c-e9f594b7fbd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\_Spinbot">
+      <UniqueIdentifier>{9c34b524-e400-49dd-aece-9ba8930601fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\_Triggerbot">
+      <UniqueIdentifier>{a80ce34d-ef27-4626-9fc6-2629ce145169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\static\_AchieveSpam">
+      <UniqueIdentifier>{163b0a97-6d6c-4732-b9ba-fe26c37104e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\static\_CvarTools">
+      <UniqueIdentifier>{7b08887c-cfb0-4f62-8c49-926d331deab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\static\_GameEventHooks">
+      <UniqueIdentifier>{4eeb84df-9633-4a40-8cfe-6ec4fbe10fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\static\_Namer">
+      <UniqueIdentifier>{eca92c91-879e-4558-a5b3-2883bbe85d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\static\_TraceHelper">
+      <UniqueIdentifier>{54a4a194-e043-418f-8c4c-f1108b86bbff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\_Aimbot">
+      <UniqueIdentifier>{e780a360-9965-4d23-ab9e-b29dcacf1eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\static\_AimAndMovementHelper">
+      <UniqueIdentifier>{89f2b0fb-6507-4611-bfcf-b499961421a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\static\_Nospread">
+      <UniqueIdentifier>{13f95dca-7646-4307-9c2f-249c5900ddd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\static\_Drawing">
+      <UniqueIdentifier>{c5581423-41da-4380-9e1f-de2e4c24f107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\_ESP">
+      <UniqueIdentifier>{d218b38f-a0e4-488d-8699-f391ac2a7d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\_SteamFriendTools">
+      <UniqueIdentifier>{698eaf5c-403d-4ce5-ba44-cebb10471678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\_TF2Player">
+      <UniqueIdentifier>{c3e79067-eec8-42da-a2b2-5ebc497f8c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\_Radar">
+      <UniqueIdentifier>{e37f3b03-700d-45c2-829e-d8baada89409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\_MiscHacks">
+      <UniqueIdentifier>{3b704051-a321-4f23-b7a6-ef0a38cc9283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\_TF2PlayerTools">
+      <UniqueIdentifier>{4e3ac1b5-8da5-413f-8a5e-31b024e1a74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\_CVarSaver">
+      <UniqueIdentifier>{0c1b240e-88d2-44d6-bf70-7f9d92723d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\_SpyCam">
+      <UniqueIdentifier>{8ae3d9f9-f143-49ba-9f11-a116b2e264ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\SkimGUI">
+      <UniqueIdentifier>{12d93136-c5f4-47f7-8239-f4fd6129b792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\SkimGUI\_SkimGUI">
+      <UniqueIdentifier>{29110772-a183-48ba-ac66-ce9e8a42deb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\SkimGUI\_SkimWindow">
+      <UniqueIdentifier>{8177c50b-488c-4f72-aeba-2e733adb9c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hags\hooked\SkimGUI\_Interactive">
+      <UniqueIdentifier>{ccfa165e-4916-4641-9207-192fe6b90c9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\lib\public\mathlib.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\tier0.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\tier1.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\tier2.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\vstdlib.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\tier3.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\vgui_controls.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\raytrace.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\steam_api.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="miscTools.h">
+      <Filter>Source Files\data\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Source Files\data\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="entry.h">
+      <Filter>Source Files\data\load\_entry</Filter>
+    </ClInclude>
+    <ClInclude Include="loader.h">
+      <Filter>Source Files\data\load\_loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Source Files\data\_Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="TF2Entity.h">
+      <Filter>Source Files\data\_TF2Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="TF2Weapon.h">
+      <Filter>Source Files\data\_TF2Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Required.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="TF2.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="TF2enums.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="TF2Offsets.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="AlternativeWait.h">
+      <Filter>Source Files\hags\hooked\_AlternativeWait</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseHook.h">
+      <Filter>Source Files\hags\hooked\_BaseHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Disabler.h">
+      <Filter>Source Files\hags\hooked\_Disabler</Filter>
+    </ClInclude>
+    <ClInclude Include="FastCharger.h">
+      <Filter>Source Files\hags\hooked\_FastCharger</Filter>
+    </ClInclude>
+    <ClInclude Include="NameSteal.h">
+      <Filter>Source Files\hags\hooked\_NameSteal</Filter>
+    </ClInclude>
+    <ClInclude Include="Spinbot.h">
+      <Filter>Source Files\hags\hooked\_Spinbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Triggerbot.h">
+      <Filter>Source Files\hags\hooked\_Triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceHelper.h">
+      <Filter>Source Files\hags\static\_TraceHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Namer.h">
+      <Filter>Source Files\hags\static\_Namer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEventHooks.h">
+      <Filter>Source Files\hags\static\_GameEventHooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CvarTools.h">
+      <Filter>Source Files\hags\static\_CvarTools</Filter>
+    </ClInclude>
+    <ClInclude Include="AchieveSpam.h">
+      <Filter>Source Files\hags\static\_AchieveSpam</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Source Files\hags\hooked\_Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="AimAndMovementHelper.h">
+      <Filter>Source Files\hags\static\_AimAndMovementHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Nospread.h">
+      <Filter>Source Files\hags\static\_Nospread</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>Source Files\hags\static\_Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Esp.h">
+      <Filter>Source Files\hags\hooked\_ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="TF2WeaponID.h">
+      <Filter>Source Files\data\_TF2Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamFriendTools.h">
+      <Filter>Source Files\data\_SteamFriendTools</Filter>
+    </ClInclude>
+    <ClInclude Include="TF2Player.h">
+      <Filter>Source Files\data\_TF2Player</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvPropTables.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COffsetManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.h">
+      <Filter>Source Files\hags\hooked\_Radar</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscHacks.h">
+      <Filter>Source Files\hags\hooked\_MiscHacks</Filter>
+    </ClInclude>
+    <ClInclude Include="IHack.h">
+      <Filter>Source Files\hags\hooked</Filter>
+    </ClInclude>
+    <ClInclude Include="TF2PlayerTools.h">
+      <Filter>Source Files\hags\hooked\_TF2PlayerTools</Filter>
+    </ClInclude>
+    <ClInclude Include="CVarSaver.h">
+      <Filter>Source Files\data\_CVarSaver</Filter>
+    </ClInclude>
+    <ClInclude Include="SpyCam.h">
+      <Filter>Source Files\hags\hooked\_SpyCam</Filter>
+    </ClInclude>
+    <ClInclude Include="SkimGUI.h">
+      <Filter>Source Files\hags\hooked\SkimGUI\_SkimGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SkimWindow.h">
+      <Filter>Source Files\hags\hooked\SkimGUI\_SkimWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseInteractive.h">
+      <Filter>Source Files\hags\hooked\SkimGUI\_Interactive</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VMTHook.cpp">
+      <Filter>Source Files\data\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="entry.cpp">
+      <Filter>Source Files\data\load\_entry</Filter>
+    </ClCompile>
+    <ClCompile Include="loader.cpp">
+      <Filter>Source Files\data\load\_loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Source Files\data\_Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="AlternativeWait.cpp">
+      <Filter>Source Files\hags\hooked\_AlternativeWait</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseHook.cpp">
+      <Filter>Source Files\hags\hooked\_BaseHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Disabler.cpp">
+      <Filter>Source Files\hags\hooked\_Disabler</Filter>
+    </ClCompile>
+    <ClCompile Include="FastCharger.cpp">
+      <Filter>Source Files\hags\hooked\_FastCharger</Filter>
+    </ClCompile>
+    <ClCompile Include="NameSteal.cpp">
+      <Filter>Source Files\hags\hooked\_NameSteal</Filter>
+    </ClCompile>
+    <ClCompile Include="Spinbot.cpp">
+      <Filter>Source Files\hags\hooked\_Spinbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Triggerbot.cpp">
+      <Filter>Source Files\hags\hooked\_Triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceHelper.cpp">
+      <Filter>Source Files\hags\static\_TraceHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="Namer.cpp">
+      <Filter>Source Files\hags\static\_Namer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEventHooks.cpp">
+      <Filter>Source Files\hags\static\_GameEventHooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CvarTools.cpp">
+      <Filter>Source Files\hags\static\_CvarTools</Filter>
+    </ClCompile>
+    <ClCompile Include="AchieveSpam.cpp">
+      <Filter>Source Files\hags\static\_AchieveSpam</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Source Files\hags\hooked\_Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="AimAndMovementHelper.cpp">
+      <Filter>Source Files\hags\static\_AimAndMovementHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="Nospread.cpp">
+      <Filter>Source Files\hags\static\_Nospread</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>Source Files\hags\static\_Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Esp.cpp">
+      <Filter>Source Files\hags\hooked\_ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="TF2WeaponID.cpp">
+      <Filter>Source Files\data\_TF2Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamFriendTools.cpp">
+      <Filter>Source Files\data\_SteamFriendTools</Filter>
+    </ClCompile>
+    <ClCompile Include="TF2Player.cpp">
+      <Filter>Source Files\data\_TF2Player</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvPropTables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COffsetManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar.cpp">
+      <Filter>Source Files\hags\hooked\_Radar</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscHacks.cpp">
+      <Filter>Source Files\hags\hooked\_MiscHacks</Filter>
+    </ClCompile>
+    <ClCompile Include="TF2PlayerTools.cpp">
+      <Filter>Source Files\hags\hooked\_TF2PlayerTools</Filter>
+    </ClCompile>
+    <ClCompile Include="CVarSaver.cpp">
+      <Filter>Source Files\data\_CVarSaver</Filter>
+    </ClCompile>
+    <ClCompile Include="SpyCam.cpp">
+      <Filter>Source Files\hags\hooked\_SpyCam</Filter>
+    </ClCompile>
+    <ClCompile Include="TF2Entity.cpp">
+      <Filter>Source Files\data\_TF2Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SkimGUI.cpp">
+      <Filter>Source Files\hags\hooked\SkimGUI\_SkimGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SkimWindow.cpp">
+      <Filter>Source Files\hags\hooked\SkimGUI\_SkimWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseInteractive.cpp">
+      <Filter>Source Files\hags\hooked\SkimGUI\_Interactive</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

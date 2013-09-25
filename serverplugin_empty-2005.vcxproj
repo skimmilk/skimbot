@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>skimbot</ProjectName>
+    <ProjectGuid>{B6572CBE-7C7F-4FFF-94DE-AFBBBAB11C64}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <PreBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</PreBuildEventUseInBuild>
+    <PreLinkEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</PreLinkEventUseInBuild>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</PostBuildEventUseInBuild>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Steam\steamapps\williwa93\team fortress 2\tf\addons</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <PreBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</PreBuildEventUseInBuild>
+    <PreLinkEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</PreLinkEventUseInBuild>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</PostBuildEventUseInBuild>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\MyMod;$(IncludePath)</IncludePath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">skimbot</TargetName>
+    <CustomBuildAfterTargets Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Run</CustomBuildAfterTargets>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">skimbot</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\common;..\..\public;..\..\public\tier0;..\..\public\tier1;..\..\game\server;..\..\game\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WIN32;_DEBUG;DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;serverplugin_emptyONLY;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <BrowseInformation>
+      </BrowseInformation>
+      <BrowseInformationFile>$(IntDir)</BrowseInformationFile>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ErrorReporting>Send</ErrorReporting>
+      <ShowIncludes>false</ShowIncludes>
+      <UseFullPaths>false</UseFullPaths>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>LinkVerboseREF</ShowProgress>
+      <OutputFile>$(OutDir)skimbot.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\lib\common;..\..\lib\public;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libc;libcd;libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(IntDir)$(TargetName).map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>
+      </BaseAddress>
+      <TargetMachine>MachineX86</TargetMachine>
+      <LinkErrorReporting>PromptImmediately</LinkErrorReporting>
+      <AssemblyDebug>true</AssemblyDebug>
+      <LinkStatus>
+      </LinkStatus>
+      <Version>
+      </Version>
+    </Link>
+    <Manifest>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Manifest>
+    <Xdcmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Xdcmake>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(OutDir)serverplugin_empty.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\common;..\..\public;..\..\public\tier0;..\..\public\tier1;..\..\game\server;..\..\game\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;serverplugin_emptyONLY;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <BrowseInformation>
+      </BrowseInformation>
+      <BrowseInformationFile>$(IntDir)</BrowseInformationFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ErrorReporting>Send</ErrorReporting>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <OutputFile>$(OutDir)skimbot.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\lib\common;..\..\lib\public;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libc;libcd;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapFileName>$(IntDir)$(TargetName).map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <BaseAddress>
+      </BaseAddress>
+      <TargetMachine>MachineX86</TargetMachine>
+      <LinkErrorReporting>PromptImmediately</LinkErrorReporting>
+      <LinkStatus>true</LinkStatus>
+      <Version>1</Version>
+    </Link>
+    <Manifest>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Manifest>
+    <Xdcmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Xdcmake>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(OutDir)serverplugin_empty.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AchieveSpam.cpp" />
+    <ClCompile Include="Aimbot.cpp" />
+    <ClCompile Include="AimAndMovementHelper.cpp" />
+    <ClCompile Include="AlternativeWait.cpp" />
+    <ClCompile Include="BaseHook.cpp" />
+    <ClCompile Include="COffsetManager.cpp" />
+    <ClCompile Include="CVarSaver.cpp" />
+    <ClCompile Include="CvarTools.cpp" />
+    <ClCompile Include="Disabler.cpp" />
+    <ClCompile Include="Drawing.cpp" />
+    <ClCompile Include="Esp.cpp" />
+    <ClCompile Include="FastCharger.cpp" />
+    <ClCompile Include="MiscHacks.cpp" />
+    <ClCompile Include="MouseInteractive.cpp" />
+    <ClCompile Include="Radar.cpp" />
+    <ClCompile Include="RecvPropTables.cpp" />
+    <ClCompile Include="SkimGUI.cpp" />
+    <ClCompile Include="SkimWindow.cpp" />
+    <ClCompile Include="SpyCam.cpp" />
+    <ClCompile Include="SteamFriendTools.cpp" />
+    <ClCompile Include="GameEventHooks.cpp" />
+    <ClCompile Include="Interfaces.cpp" />
+    <ClCompile Include="loader.cpp" />
+    <ClCompile Include="Namer.cpp" />
+    <ClCompile Include="NameSteal.cpp" />
+    <ClCompile Include="Nospread.cpp" />
+    <ClCompile Include="Spinbot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\lib\public\mathlib.lib" />
+    <Library Include="..\..\lib\public\raytrace.lib" />
+    <Library Include="..\..\lib\public\steam_api.lib" />
+    <Library Include="..\..\lib\public\tier0.lib" />
+    <Library Include="..\..\lib\public\tier1.lib" />
+    <Library Include="..\..\lib\public\tier2.lib" />
+    <Library Include="..\..\lib\public\tier3.lib" />
+    <Library Include="..\..\lib\public\vgui_controls.lib" />
+    <Library Include="..\..\lib\public\vstdlib.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AchieveSpam.h" />
+    <ClInclude Include="Aimbot.h" />
+    <ClInclude Include="AimAndMovementHelper.h" />
+    <ClInclude Include="AlternativeWait.h" />
+    <ClInclude Include="COffsetManager.h" />
+    <ClInclude Include="MouseInteractive.h" />
+    <ClInclude Include="SkimGUI.h" />
+    <ClInclude Include="SkimWindow.h" />
+    <ClInclude Include="SpyCam.h" />
+    <ClInclude Include="CVarSaver.h" />
+    <ClInclude Include="Drawing.h" />
+    <ClInclude Include="Esp.h" />
+    <ClInclude Include="MiscHacks.h" />
+    <ClInclude Include="Radar.h" />
+    <ClInclude Include="RecvPropTables.h" />
+    <ClInclude Include="SteamFriendTools.h" />
+    <ClInclude Include="Nospread.h" />
+    <ClInclude Include="TF2PlayerTools.h" />
+    <ClInclude Include="TF2WeaponID.h" />
+    <ClInclude Include="TraceHelper.h" />
+    <ClInclude Include="Disabler.h" />
+    <ClInclude Include="NameSteal.h" />
+    <ClInclude Include="TF2Offsets.h" />
+    <ClInclude Include="TF2Player.h" />
+    <ClInclude Include="IHack.h" />
+    <ClInclude Include="BaseHook.h" />
+    <ClInclude Include="CvarTools.h" />
+    <ClCompile Include="entry.cpp">
+      <FileType>CppHeader</FileType>
+    </ClCompile>
+    <ClInclude Include="FastCharger.h" />
+    <ClInclude Include="GameEventHooks.h" />
+    <ClInclude Include="Interfaces.h" />
+    <ClInclude Include="entry.h" />
+    <ClInclude Include="loader.h" />
+    <ClInclude Include="Memory.h" />
+    <ClInclude Include="miscTools.h" />
+    <ClInclude Include="Namer.h" />
+    <ClInclude Include="Required.h" />
+    <ClInclude Include="Spinbot.h" />
+    <ClInclude Include="TF2.h" />
+    <ClInclude Include="TF2Entity.h" />
+    <ClInclude Include="TF2enums.h" />
+    <ClInclude Include="TF2Weapon.h" />
+    <ClInclude Include="Triggerbot.h" />
+    <ClCompile Include="TF2Entity.cpp" />
+    <ClCompile Include="TF2Player.cpp" />
+    <ClCompile Include="TF2PlayerTools.cpp" />
+    <ClCompile Include="TF2WeaponID.cpp" />
+    <ClCompile Include="TraceHelper.cpp" />
+    <ClCompile Include="Triggerbot.cpp" />
+    <ClCompile Include="VMTHook.cpp">
+      <FileType>CppHeader</FileType>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
